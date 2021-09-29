@@ -1,0 +1,155 @@
+.h2Item {
+  margin-left: 480px;
+  margin-top: 100px;
+  margin-bottom: -30px;
+}
+
+.hrItem {
+  width: 50%;
+  height: 2px;
+  border-width: 0;
+  background-color: #cccbcb;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.buttonEdit {
+  text-decoration: none;
+  background-color: #00d0ec;
+  padding: 5px 10px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.buttonDelete {
+  text-decoration: none;
+  background-color: red;
+  padding: 5px 10px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.buttonAddUser {
+  text-decoration: none;
+  display: flex;
+  justify-content: left;
+  background-color: #08c308;
+  margin-top: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 15px;
+}
+
+.buttonPostion {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75px;
+}
+
+.buttonPermissions {
+  background-color: white;
+  border-style: solid;
+  border-color: #cccbcb;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.buttonRoles {
+  background-color: white;
+  border-style: solid;
+  border-color: #cccbcb;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 500px) {
+  h2 {
+    margin-left: 5%;
+    margin-bottom: -30px;
+  }
+
+  hr {
+    width: 90%;
+    height: 2px;
+    border-width: 0;
+    background-color: #cccbcb;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+
+  .buttonAddUser {
+    background-color: #08c308;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    margin-left: 5%;
+    max-width: 100px;
+  }
+
+  .buttonPermissions {
+    background-color: white;
+    border-style: solid;
+    border-color: #cccbcb;
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+    margin-left: 77%;
+    max-width: 100px;
+  }
+
+  .buttonRoles {
+    background-color: white;
+    border-style: solid;
+    border-color: #cccbcb;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: -6px;
+  }
+}

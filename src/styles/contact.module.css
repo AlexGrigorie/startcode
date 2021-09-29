@@ -1,0 +1,77 @@
+.sectionContact {
+  display: flex;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-left: 200px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.h1Item {
+  font-size: 32px;
+}
+
+.pItem {
+  color: #616161;
+  font-size: 18px;
+  margin: 0;
+}
+
+.contactFacebook {
+  border-style: none;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: #278cff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contactYoutube {
+  padding: 10px;
+  border-style: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.labelItem {
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 119px;
+  width: 180px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sentMessageButton {
+  margin-left: 100px;
+  margin-top: 8px;
+  padding: 10px;
+  background-color: rgb(13, 207, 207);
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: rgb(13, 207, 207);
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.textareaItem {
+  margin-left: 100px;
+  height: 150px;
+  width: 600px;
+  display: flex;
+  border-radius: 10px;
+}
